@@ -1,40 +1,31 @@
 <!--
   Profile README — rendered at https://github.com/rfbert
   Voice: substance first, no vanity metrics. Mirrors rfbert.me.
-  Keep links pointed at rfbert.me pages (always live) until private repos are opened.
+  Links point at rfbert.me pages (always live) while the flagship repos are private.
 -->
 
 ### Rodrigo Flores Bertolotti
 
-**CS undergraduate at Oregon State University building production AI.** Right now that means a speech‑to‑text and LLM‑interpretation pipeline at Mibanco (Credicorp), LLM fault‑resilience research at OSU's TRUE AI Lab, and a few tools of my own.
-
-I care about systems that stay correct under pressure — whether the pressure is a bit flipped in GPU memory or a thousand noisy internship postings a morning.
+CS undergraduate at Oregon State University (Honors College, GPA 4.0). I build production AI and study where it breaks.
 
 [**rfbert.me**](https://rfbert.me) · [LinkedIn](https://www.linkedin.com/in/rodrigo-bertolotti) · [Résumé](https://rfbert.me/resume.pdf) · rf.bertolotti@gmail.com
 
----
+**Now**
 
-#### What I'm working on now
+**AI Intern, Mibanco (Credicorp).** Peru's largest microfinance bank. Building a parallelized audio-ingestion and speech-to-text pipeline on Databricks (Python, SQL, Azure AI), with LLM-based interpretation feeding production workflows.
 
-- **AI Intern @ Mibanco (Credicorp)** — a parallelized audio‑ingestion + speech‑to‑text pipeline on Databricks (Python, SQL, Azure AI endpoints), feeding LLM‑based interpretation into production workflows at Peru's largest microfinance bank.
-- **Undergraduate Researcher @ TRUE AI Lab, Oregon State University** — defending LLM inference against *targeted* bit‑flip attacks: a gradient‑guided attack framework, a draft‑model‑gated decoding defense, and a benchmark of 7 fault‑tolerance methods against 2 attack classes, run at scale on an A100 Slurm cluster.
+**Undergraduate Research Assistant, TRUE AI Lab (Oregon State University).** LLM fault resilience: a gradient-guided bit-flip attack framework and a draft-model-gated decoding defense, benchmarking 7 fault-tolerance methods against 2 adversarial attack classes on an HPC Slurm cluster. First-authoring a paper on targeted bit-flip defenses (in prep); co-author on a cross-scale resilience manuscript (under review).
 
-#### Selected work
+**Selected work**
 
-| | | |
-|---|---|---|
-| **[Internship Scout](https://rfbert.me/projects/)** | Full‑stack agent that reads the internship market every morning — scrape → dedupe → deterministic eligibility gates → evidence‑citing LLM scoring → kanban tracker. Idempotent runs; Vitest + Playwright in CI. | `TypeScript · Next.js · Prisma · Postgres · Docker · GH Actions` |
-| **[LLM Fault‑Resilience Research](https://rfbert.me/research/)** | Two directions at the TRUE AI Lab: a cross‑scale resilience defense (manuscript under review) and targeted bit‑flip defenses (in preparation). | `PyTorch · Hugging Face · Slurm/HPC` |
-| **[rfbert.me](https://rfbert.me)** | This portfolio — Astro 5, Tailwind v4, build‑time OG images, statically deployed. Designed and built end to end. | `Astro · Tailwind · TypeScript` |
+**Internship Scout.** A full-stack agent that reads the internship market every morning: scrape, dedupe, deterministic eligibility gates, evidence-citing LLM scoring, kanban tracker. Idempotent runs; Vitest and Playwright in CI. `TypeScript · Next.js · Prisma · PostgreSQL · Docker · GitHub Actions`
 
-#### Focus
+**[rfbert.me](https://rfbert.me).** This portfolio, designed and built end to end. `Astro 5 · Tailwind v4 · build-time OG images · static deploy`
 
-Applied AI / ML engineering · LLM reliability and evaluation · full‑stack systems that ship. Comfortable from the CUDA‑adjacent research layer up to the product surface.
+Internship Scout and the research code are private for now (active product / unpublished research). The portfolio at [rfbert.me](https://rfbert.me) is fully browsable, and I'm glad to walk through architecture, tests, or a live demo on request.
 
-#### Toolbox
+**Toolbox**
 
-`Python` · `TypeScript` · `SQL` · `C++` · `PyTorch` · `Hugging Face` · `Next.js` · `PostgreSQL` · `Databricks` · `Azure AI` · `Docker` · `Slurm/HPC` · `Git`
+`Python` · `TypeScript` · `SQL` · `C++` · `PyTorch` · `Hugging Face` · `Next.js` · `PostgreSQL` · `Databricks` · `Azure AI` · `Docker` · `Slurm/HPC`
 
----
-
-<sub>B.S. Computer Science, Oregon State University — Honors College · GPA 4.0 · expected 2028. Open to Summer 2027 internships in ML/AI engineering, software engineering, and AI research.</sub>
+<sub>B.S. Computer Science, Oregon State University (Honors College), expected June 2028. Open to Summer 2027 internships in ML/AI engineering, software engineering, and AI research.</sub>
