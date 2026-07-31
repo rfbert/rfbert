@@ -14,7 +14,7 @@ CS undergraduate at Oregon State University (Honors College, GPA 4.0). I build p
 
 **AI Intern, Mibanco (Credicorp).** Peru's largest microfinance bank. Building a parallelized audio-ingestion and speech-to-text pipeline on Databricks (Python, SQL, Azure AI), with LLM-based interpretation feeding production workflows.
 
-**Undergraduate Research Assistant, TRUE AI Lab (Oregon State University).** LLM fault resilience: a gradient-guided bit-flip attack framework and a draft-model-gated decoding defense, benchmarking 7 fault-tolerance methods against 2 adversarial attack classes on an HPC Slurm cluster. First-authoring a paper on targeted bit-flip defenses (in prep); co-author on a cross-scale resilience manuscript (under review).
+**Undergraduate Research Assistant, TRUE AI Lab (Oregon State University).** LLM fault resilience: a gradient-guided bit-flip attack framework and a draft-model-gated decoding defense, benchmarking 7 fault-tolerance methods against 2 adversarial attack classes on an HPC Slurm cluster. Co-author on a cross-scale model resilience manuscript; contributing to the lab's follow-on work on targeted bit-flip defenses.
 
 **Selected work**
 
