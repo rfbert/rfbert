@@ -1,67 +1,24 @@
-<!--
-  Profile README — rendered at https://github.com/rfbert
-  Voice: substance first, no vanity metrics. Mirrors rfbert.me.
-  Banner art is generated from the site's own SEC-DED palette and typefaces.
--->
+# Hi, I'm Rodrigo 👋
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
-  <img src="assets/banner-light.png" alt="Rodrigo Flores Bertolotti — Oregon State University, Honors College, B.S. Computer Science 2028">
-</picture>
+CS undergrad at Oregon State University (Honors College, class of 2028). I take AI products from idea to production, and I study why LLMs fail under hardware faults.
 
-**Rodrigo Flores Bertolotti** — Computer Science at Oregon State, Honors College, 4.0, expected June 2028.
+## What I shipped
 
-**Open to Summer 2027 internships** — AI product management, AI/ML engineering, software engineering, AI research.
+- 🛠️ **Internship Scout** — I was losing hours scanning postings, so I specified a product that does it for me and directed the build: collect → dedupe → deterministic eligibility rules → evidence-based LLM ranking → kanban. The decisions are mine: one ingest path, deterministic gates before any model call, and a person accepting every result before it counts. I integrated GitHub, Vercel and managed Postgres by hand and run two deployments, a public demo and a private instance against the live search (TypeScript, Next.js, PostgreSQL, Vercel). *(repo link coming once scrubbed and public)*
+- 🏦 **Speech-to-text pipeline at Mibanco (Credicorp)** — Summer 2026 Artificial Intelligence Intern at Peru's largest microfinance bank: parallelized transcription plus LLM interpretation of recorded audio, built on Databricks with Azure AI model endpoints, for integration into production finance workflows. This one I wrote myself, in Python and SQL. *(code private — employer-owned)*
+- ⚡ **AI Productivity Automation System** — 12+ recurring tasks automated across 5 platforms (Calendar, Gmail, Telegram, Notion, Sheets), the capstone of my Diploma in Artificial Intelligence at USMP.
 
-### When does a model's output stop meaning what it says?
+## Research
 
-I come at that from both ends.
+Undergraduate researcher at OSU's TRUE (Trustworthy and Responsible) AI Lab, through a URSA Engage award: I run fault-injection experiments on 1B–8B Llama 3 models using the lab's harness and benchmark 7 defense methods against 2 classes of adversarial bit-flip attack on GSM8K. Co-author on a manuscript on cross-scale model resilience; contributor to the design of a draft-model-gated decoding defense. *(code private — lab-owned, until publication)*
 
-**Attacking it.** In the lab I flip individual bits inside an LLM's weights to find the few that turn a fluent model into a confidently wrong one, then measure which defenses actually survive it.
+## Stack
 
-**Auditing it.** In the products I build, a score is never shown as a bare number. Its components are drawn as spectral lines, so you can see whether a 78 is eight signals agreeing or a dream role averaged against a company that never sponsors.
+The languages I will defend in an interview: `Python` `SQL` `C++`
 
-A number you can't inspect is a number that can fail quietly.
+Everything else I work with rather than claim as a language: `PyTorch` `Hugging Face` `Databricks` `Azure AI` `Slurm` `PostgreSQL` `GitHub Actions` `Vercel` — and AI coding agents, scoped and directed, for building the things I specify.
 
----
+## Elsewhere
 
-**Now**
-
-`TRUE AI Lab, Oregon State` — Undergraduate research assistant, LLM fault resilience. Built a gradient-guided bit-flip attack framework and a draft-model-gated decoding defense, then benchmarked 7 fault-tolerance methods against 2 classes of adversarial attack on an HPC Slurm cluster. Co-author on a cross-scale model resilience manuscript. Code stays private until publication.
-
-`Mibanco (Credicorp)` — AI intern at Peru's largest microfinance bank. Built a parallelized audio-ingestion and speech-to-text pipeline on Databricks (Python, SQL, Azure AI), with LLM-based interpretation feeding production workflows.
-
----
-
-**Selected work**
-
-**[internship-scout](https://github.com/rfbert/internship-scout)** — a full-stack agent that reads the internship market every morning. It scrapes job boards, dedupes across sources, applies deterministic eligibility gates, scores what survives 0–100 with an explainable weighted breakdown and an evidence-citing LLM sponsorship analysis, and tracks applications on a kanban board. Runs are idempotent; Vitest and Playwright gate CI.
-
-<sub>TypeScript · Next.js 16 · Prisma · PostgreSQL · Docker · GitHub Actions</sub>
-
-I built it because I'm an international student on an F-1 visa, so sponsorship isn't a preference in my search — it's a filter. A filter that strict should have to cite its evidence.
-
-A single number hides how it was made, so the score doesn't stop at the number. Each of the eight weighted components is drawn as an emission line on a 0–100 axis inside a dark instrument well.
-
-```
-            0                          50                        100
-            ├───────────────────────────┼──────────────────────────┤
-78  TIGHT   ······································│·│││·││││········
-78  SPLIT   ··│·│···········································│·│││││·
-```
-
-Both listings score 78. The first is corroborated — every signal agrees, and the number means what it says. The second is the average of an argument. That spread is promoted to a first-class metric, dispersion (σ), tagged `TIGHT` / `MIXED` / `SPLIT` and sortable, so the two never look alike again.
-
-**[rfbert.me](https://rfbert.me)** — portfolio, designed and built end to end.
-
-<sub>Astro 5 · Tailwind v4 · build-time OG images · static deploy</sub>
-
----
-
-**Toolbox**
-
-`Python` `TypeScript` `SQL` `C++` · `PyTorch` `Hugging Face` `Slurm/HPC` · `Next.js` `PostgreSQL` `Docker` · `Databricks` `Azure AI`
-
----
-
-[rfbert.me](https://rfbert.me) · [LinkedIn](https://www.linkedin.com/in/rodrigo-bertolotti) · [Résumé](https://rfbert.me/resume.pdf) · [rf.bertolotti@gmail.com](mailto:rf.bertolotti@gmail.com)
+- 💼 [linkedin.com/in/rodrigo-bertolotti](https://www.linkedin.com/in/rodrigo-bertolotti)
+- 📫 rf.bertolotti@gmail.com
