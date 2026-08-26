@@ -1,6 +1,6 @@
 # Hi, I'm Rodrigo 👋
 
-CS undergrad at Oregon State University (Honors College, class of 2028). I take AI products from idea to production, and I study why LLMs fail under hardware faults.
+CS undergrad at Oregon State University (Applied Computer Science option, Honors Scholar Track B), finishing the bachelor's in June 2028 and taking graduate AI coursework through OSU's Accelerated Master's Program. I take AI products from idea to production, and I study why LLMs fail under hardware faults.
 
 ## Selected work
 
@@ -11,6 +11,12 @@ CS undergrad at Oregon State University (Honors College, class of 2028). I take 
 ## Research
 
 Undergraduate researcher at OSU's TRUE (Trustworthy and Responsible) AI Lab, through a URSA Engage award: I run fault-injection experiments on Llama-3-8B using the lab's harness and benchmark 7 defense configurations against 2 classes of adversarial bit-flip attack across GSM8K, DROP and TriviaQA, on an 8× A40 Slurm cluster. Co-author on a manuscript on cross-scale model resilience across 8B–32B target models, now under review; I contributed the experiments, benchmarks and the accuracy/fault-tolerance trade-off analysis. *(code private — lab-owned, until publication)*
+
+## Coursework
+
+Graduate, through the Accelerated Master's Program: `Machine Learning` `Deep Learning` `Computer Vision` `Parallel Programming` `Algorithms` `Big Ideas in AI`
+
+Undergraduate: `Computer Architecture & Assembly Language` `Data Structures` `Algorithms` `Linear Algebra` `Discrete Mathematics` `Statistics` `Calculus I-III`
 
 ## Stack
 
